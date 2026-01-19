@@ -1,106 +1,93 @@
-# 🚗 Uber – Dashboard Operacional, Comercial y de Experiencia de Cliente (Power BI)
+Uber — Análisis de Datos Operacional y Financiero en Power BI
 
-Proyecto de Business Intelligence desarrollado en Power BI para analizar el desempeño operacional, financiero y de experiencia del cliente de Uber a partir de un dataset de viajes.
+Este proyecto presenta un análisis de datos aplicado a operaciones reales de Uber, utilizando Power BI como herramienta principal para transformar datos en información útil para la toma de decisiones.
 
----
+El objetivo es comprender el comportamiento de los viajes, los ingresos, la experiencia del cliente y el desempeño operativo mediante visualizaciones claras y métricas de negocio.
 
-## 🎯 Objetivo
+🎯 Objetivo del proyecto
 
-Apoyar la toma de decisiones estratégicas mediante el análisis de:
+Analizar el desempeño de Uber desde una perspectiva:
 
-- Reservas y volumen de viajes
-- Ingresos y rentabilidad
-- Cancelaciones
-- Experiencia del cliente y del conductor
-- Desempeño por tipo de vehículo
+Operacional
 
----
+Comercial
 
-## 📂 Dataset
+De experiencia de cliente
 
-Archivo CSV con información de viajes, incluyendo:
+para detectar oportunidades de mejora en ingresos, servicio y eficiencia.
 
-- Fecha y hora
-- Estado de reserva
-- Tipo de vehículo
-- Distancia del viaje
-- Ingresos
-- Ratings de cliente y conductor
-- Métodos de pago
-- Cancelaciones
+🔍 Qué se hizo en este proyecto
 
----
+Durante el desarrollo se trabajó todo el ciclo de análisis de datos:
 
-## 🔄 Metodología
+Limpieza y preparación de datos en Power Query
 
-### 1️⃣ Limpieza de datos (Power Query)
+Normalización y validación de campos
 
-- Eliminación de filas nulas
-- Normalización de columnas
-- Conversión de tipos de datos
-- Validación de rangos numéricos
-- Renombrado de campos a español
+Modelado de datos con tabla calendario
 
-### 2️⃣ Modelado de datos
+Creación de métricas con DAX
 
-- Tabla calendario
-- Relaciones optimizadas
-- Buenas prácticas de modelo estrella
+Diseño de dashboards ejecutivos
 
-### 3️⃣ Medidas DAX
+Análisis e interpretación de resultados
 
-- Total de Reservas  
-- Viajes Completados  
-- Ingresos Totales  
-- Ingreso por Viaje  
-- Tasa de Cancelación  
-- Tasa de Éxito  
-- Ratings Promedio  
+📊 Indicadores analizados
 
-### 4️⃣ Dashboards
+Total de reservas
 
-El dashboard incluye las siguientes páginas:
+Viajes completados
 
-- **Overall** – Resumen ejecutivo
-- **Tipo de Vehículo**
-- **Ingresos**
-- **Ratings**
+Ingresos totales
 
----
+Ingreso promedio por viaje
 
-## 📊 KPIs principales
+Tasa de éxito
 
-- Total Reservas
-- Viajes Completados
-- Ingresos Totales
-- Ingreso por Viaje
-- Rating Cliente Promedio
-- Rating Conductor Promedio
-- Tasa de Éxito
+Rating promedio de clientes
 
----
+Rating promedio de conductores
 
-## 📈 Ejemplos de Insights
+📁 Páginas del dashboard
 
-> La mayor concentración de reservas ocurre en ciertos tipos de vehículo, lo que permite enfocar estrategias comerciales para maximizar ingresos.
+El dashboard se divide en:
 
-> El rating promedio disminuye cuando los tiempos de asignación son mayores, lo que impacta la experiencia del cliente.
+Overall: visión ejecutiva del negocio
 
----
+Tipo de vehículo: desempeño por categoría
 
-## 🛠 Herramientas utilizadas
+Ingresos: análisis comercial
 
-- Power BI Desktop
-- Power Query
-- DAX
-- Excel / CSV
+Ratings: experiencia de cliente y conductor
 
----
+Cada página permite explorar los datos mediante segmentadores y filtros interactivos.
 
-## 💼 Enfoque profesional
+📈 Ejemplos de insights obtenidos
 
-Este proyecto fue desarrollado como parte de un portafolio profesional orientado a roles de:
+Algunos tipos de vehículo concentran mayor volumen pero menor rentabilidad.
 
-- Data Analyst
-- Business Intelligence Analyst
-- Power BI Developer
+El rating del cliente se ve afectado por variables operativas.
+
+La distribución de ingresos permite priorizar estrategias comerciales.
+
+Estos hallazgos permiten apoyar decisiones de negocio de forma objetiva.
+
+🛠 Herramientas utilizadas
+
+Power BI Desktop
+
+Power Query
+
+DAX
+
+Dataset en formato CSV
+
+🎯 Enfoque profesional
+
+Este proyecto forma parte de mi portafolio personal orientado a posiciones de:
+
+Data Analyst
+
+Business Intelligence Analyst
+
+Power BI Analyst
